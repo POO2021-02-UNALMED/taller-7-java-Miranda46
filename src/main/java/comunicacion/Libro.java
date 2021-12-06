@@ -26,7 +26,7 @@ public class Libro extends Escrito {
 		return 2*paginas;
 	}
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 		
 	}
