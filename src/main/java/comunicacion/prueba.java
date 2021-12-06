@@ -21,5 +21,14 @@ public class prueba {
 	System.out.println(fabula.interpretacion());
 	System.out.println(fabula.palabrasTotales(140));
 	System.out.println(fabula.getOrigen());
+	String  comp = "Pensamiento expansivo\n" + 
+			"Recomendador\n" + 
+			"Alejandro\n" + 
+			"20\n" + 
+			"Recomendar asignaturas\n" + 
+			"2\n" + 
+			"Se hace trabajo futuro\n" + 
+			"[1] Maquinaria";
+	System.out.println(tesis.toString());
 
 }}

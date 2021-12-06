@@ -27,7 +27,7 @@ public class Periodico extends Escrito {
 		return getOrigen() +"\n"+getTitulo()+"\n"+getAutor()+"\n"+getPaginas()+"\n"+getFecha()+"\n"+primicia;
 	}
 	public String getFecha() {
-		return getFecha();
+		return fecha;
 	}
 	public String getInterpretacion() {
 		return interpretacion;
