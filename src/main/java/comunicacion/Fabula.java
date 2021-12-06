@@ -20,7 +20,7 @@ public class Fabula extends Escrito {
 	@Override
 	public int palabrasTotales(int palabrasPagina) {
 		
-		return 1*palabrasPagina;
+		return 2*palabrasPagina*paginas;
 	}
 	@Override
 	public String interpretacion() {
