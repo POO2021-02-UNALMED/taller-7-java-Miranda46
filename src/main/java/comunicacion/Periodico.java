@@ -22,7 +22,7 @@ public class Periodico extends Escrito {
 	@Override
 	public int palabrasTotales(int palabrasPagina) {
 		
-		return 10*paginas;
+		return 10*palabrasPagina;
 	}
 	@Override
 	public String interpretacion() {
