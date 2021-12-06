@@ -11,7 +11,7 @@ public class Libro extends Escrito {
 	private int paginas;
 	
 	//Escrito(String origen, String titulo, String autor, int paginas
-	Libro(String origen, String titulo, String autor, int paginas, String co_autor, String editorial, String edicion, String interpretacion) {
+	public Libro(String origen, String titulo, String autor, int paginas, String co_autor, String editorial, String edicion, String interpretacion) {
 	
 		super(origen, titulo, autor, paginas);
 		this.co_autor=co_autor;
@@ -21,7 +21,7 @@ public class Libro extends Escrito {
 		
 	}
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		
 		return 2*paginas;
 	}

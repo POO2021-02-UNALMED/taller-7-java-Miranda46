@@ -12,7 +12,7 @@ public class Tesis extends Escrito {
 	private int paginas;
 	
 	//Escrito(String origen, String titulo, String autor, int paginas
-	Tesis(String origen, String titulo, String autor, int paginas, String idea, String[] argumentos, String conclusion, String referencias, String interpretacion) {
+	public Tesis(String origen, String titulo, String autor, int paginas, String idea, String[] argumentos, String conclusion, String referencias, String interpretacion) {
 	
 		super(origen, titulo, autor, paginas);
 		this.conclusion=conclusion;
@@ -23,12 +23,12 @@ public class Tesis extends Escrito {
 		
 	}
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		
 		return 5*paginas;
 	}
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 		
 	}

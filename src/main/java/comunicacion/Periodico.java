@@ -10,7 +10,7 @@ public class Periodico extends Escrito {
 	private int paginas;
 	
 	//Escrito(String origen, String titulo, String autor, int paginas
-	Periodico(String origen, String titulo, String autor, int paginas, String fecha, String primicia, String interpretacion) {
+	public Periodico(String origen, String titulo, String autor, int paginas, String fecha, String primicia, String interpretacion) {
 	
 		super(origen, titulo, autor, paginas);
 		this.fecha=fecha;
@@ -20,12 +20,12 @@ public class Periodico extends Escrito {
 		
 	}
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		
 		return 10*paginas;
 	}
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 		
 	}
