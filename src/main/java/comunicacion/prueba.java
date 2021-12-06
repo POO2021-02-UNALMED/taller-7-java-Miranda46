@@ -20,5 +20,6 @@ public class prueba {
 	System.out.println(alfabeto.interpretacion());
 	System.out.println(fabula.interpretacion());
 	System.out.println(fabula.palabrasTotales(140));
+	System.out.println(fabula.getOrigen());
 
 }}
